@@ -1,0 +1,144 @@
+.Heading{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 1px 1px 1px 1px;
+}
+header{
+    padding: 10px;
+    text-align: center;
+    font-family: "Comic Sans Ms","Arial";
+}
+.button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 32px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button{
+    background-color: white; 
+    color: black; 
+}
+.button:hover {
+    background-color: #06aefc;
+    color: white;
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.button{
+    float: center;
+    border: 1px solid green;
+  }
+.button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.button:hover{background-color: #0616f5}
+
+.button:active {
+  background-color: #0697b1;
+  box-shadow: 0 2px rgb(238, 1, 1);
+  transform: translateY(4px);
+}
+
+nav {
+    width: 100vw;
+    height: auto;
+    background-color: #333;
+    padding: 10px 10px 5px;
+}
+
+nav a{
+    flex: left;
+    padding: 10px 10px 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: flex-column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.Textofmid{
+    text-align: center;
+}
+.Uplaod_files{
+    text-align: center;
+}
+
+.moreInfo{
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 3px;
+    width: 250px;
+}
+  
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 24%;
+    padding: 5px;
+    color: white;
+}
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* .shareTalk{
+    padding: 0px;
+} */
+.Share{
+    padding: 10px;
+}
+.shareimage{
+    height: fit-content;
+}
+
+body{
+    background-image: url("backgroundimage.png");
+}
